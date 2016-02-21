@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/Dahlia/.vs
+/src/Dahlia/artifacts/bin/Dahlia.Web/Debug
+/src/Dahlia/src/Dahlia.Web/node_modules
+*.user
