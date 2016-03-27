@@ -2056,6 +2056,10 @@
         "runtime": {
           "lib/net45/_._": {}
         }
+      },
+      "Teclyn.Core/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1"
       }
     },
     "DNXCore,Version=v5.0": {
@@ -6833,6 +6837,10 @@
         "runtime": {
           "lib/net45/_._": {}
         }
+      },
+      "Teclyn.Core/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1"
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
@@ -8892,6 +8900,10 @@
         "runtime": {
           "lib/net45/_._": {}
         }
+      },
+      "Teclyn.Core/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1"
       }
     },
     "DNXCore,Version=v5.0/win7-x86": {
@@ -15346,6 +15358,10 @@
     }
   },
   "libraries": {
+    "Teclyn.Core/1.0.0": {
+      "type": "project",
+      "path": "../../wrap/Teclyn.Core/project.json"
+    },
     "EntityFramework.Commands/7.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -21165,7 +21181,9 @@
       "Microsoft.Extensions.Logging.Debug >= 1.0.0-rc1-final",
       "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0-rc1-final"
     ],
-    "DNX,Version=v4.5.1": [],
+    "DNX,Version=v4.5.1": [
+      "Teclyn.Core >= 1.0.0-*"
+    ],
     "DNXCore,Version=v5.0": []
   }
 }

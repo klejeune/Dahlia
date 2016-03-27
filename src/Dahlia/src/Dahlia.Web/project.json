@@ -1,4 +1,4 @@
-﻿{
+{
   "userSecretsId": "aspnet5-Dahlia.Web-563ff0ab-2095-406c-b040-d1c8e53bb5b1",
   "version": "1.0.0-*",
   "compilationOptions": {
@@ -33,7 +33,11 @@
   },
 
   "frameworks": {
-    "dnx451": { },
+    "dnx451": {
+      "dependencies": {
+        "Teclyn.Core": "1.0.0-*"
+      }
+    },
     "dnxcore50": { }
   },
 

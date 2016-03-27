@@ -1,0 +1,4 @@
+Tripes : YAGO https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/downloads/
+
+English to SPARQL : squall2sparql https://bitbucket.org/sebferre/squall2sparql
+
